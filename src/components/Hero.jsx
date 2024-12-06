@@ -1,7 +1,7 @@
 import React from 'react'
 import { ButtonPrimary, ButtonOutline } from './Button'
 
-import Cv_Santos_Patazca from '../skill/CV_Santos_Patazca.pdf'
+import Cv_Santos_Patazca from './skill/CV_Santos_Patazca.pdf' 
 
 const Hero = () => {
   return (
