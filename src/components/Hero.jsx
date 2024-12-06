@@ -1,7 +1,7 @@
 import React from 'react'
 import { ButtonPrimary, ButtonOutline } from './Button'
 
-import Cv_Santos_Patazca from './skill/CV_Santos_Patazca.pdf' 
+
 
 const Hero = () => {
   return (
@@ -37,7 +37,7 @@ const Hero = () => {
                 </h2>
 
                 <div className="flex items-center gap-3">
-                    <a href={Cv_Santos_Patazca} download>
+                    <a href="/skill/Cv_Santos_Patazca.pdf" download>
                     <ButtonPrimary 
                         label="Download CV"
                         icon="download"
